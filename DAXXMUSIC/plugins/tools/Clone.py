@@ -34,7 +34,7 @@ async def clone(bot, msg: Message):
     try:
         await text.edit("Booting Your Client")
                    # change this Directry according to ur repo
-        client = Client(":memory:", API_ID, API_HASH, bot_token=phone, plugins={"root": "DAXXMUSIC.modules"})
+        client = Client(":memory:", API_ID, API_HASH, bot_token=phone, plugins={"root": "DAXXMUSIC.plugins"})
         await client.start()
         user = await client.get_me()
         await msg.reply(f"Your Client Has Been Successfully Started As @{user.username}! ✅ \n\n Now Add Your Bot And Assistant @{ASSUSERNAME} To Your Chat!\n\nThanks for Cloning.")
