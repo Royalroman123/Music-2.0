@@ -40,6 +40,3 @@ async def clone(bot, msg: Message):
         await msg.reply(f"Your Client Has Been Successfully Started As @{user.username}! ✅ \n\n Now Add Your Bot And Assistant @{ASSUSERNAME} To Your Chat!\n\nThanks for Cloning.")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
-
-
-        bot_token=phone
