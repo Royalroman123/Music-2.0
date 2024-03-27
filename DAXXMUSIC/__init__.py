@@ -21,7 +21,7 @@ DEV_USERS = "6867197197"
 DEMONS = "6867197197"
 WOLVES = "6867197197"
 TIGERS = "6867197197"
-
+DEL_CMDS = True
 
 
 from .platforms import *
