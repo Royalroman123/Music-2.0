@@ -16,6 +16,12 @@ app = DAXX()
 api = SafoneAPI()
 userbot = Userbot()
 
+DRAGONS = get_user_list("elevated_users.json", "sudos")  # DON'T EDIT
+DEV_USERS = get_user_list("elevated_users.json", "devs")  # . DON'T EDIT
+DEMONS = get_user_list("elevated_users.json", "supports")  # DON'T EDIT
+WOLVES = get_user_list("elevated_users.json", "whitelists")  # DON'T EDIT
+TIGERS = get_user_list("elevated_users.json", "tigers")  # DON'T EDIT
+
 
 from .platforms import *
 
